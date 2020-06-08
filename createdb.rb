@@ -14,6 +14,7 @@ end
 DB.create_table! :rsvps do
   primary_key :id
   foreign_key :restaurant_id
+  foreign_key :user_id
   Boolean :going
   String :name
   String :email
@@ -30,7 +31,7 @@ end
 restaurants_table = DB.from(:restaurants)
 
 restaurants_table.insert(title: "Bacon Burger", 
-                    description: "No1 Bacon Burger in Evanston",
+                    description: "No.1 Bacon Burger in Evanston",
                     location: "Kellogg Global Hub")
 
 restaurants_table.insert(title: "Toshi's Japanese Kitchen", 
