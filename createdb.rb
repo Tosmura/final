@@ -35,4 +35,4 @@ restaurants_table.insert(title: "Bacon Burger",
 
 restaurants_table.insert(title: "Toshi's Japanese Kitchen", 
                     description: "Authentic Japanese restaurant in Evanston.",
-                    location: "1228 Emerson St")
+                    location: "1228 Emerson St, Evanston, IL")
